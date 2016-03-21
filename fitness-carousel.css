@@ -46,30 +46,30 @@ body {
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
-  background-color: #00a3ff;
+  background-color: #ff5c00;
 }
 
 
 .navbar-inverse .navbar-nav>li:hover {
-  color: #00a3ff;
+  color: #ff5c00;
 }
 
 .navbar-inverse .navbar-nav>.open>a {
-  background-color: #00a3ff;
+  background-color: #ff5c00;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-  background-color: #00a3ff;
+  background-color: #ff5c00;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-  background-color: #00a3ff;
+  background-color: #ff5c00;
 }
 
 
 .navbar-wrapper .navbar .container {
   width: auto;
-  background-color: #ffb600 !important;
+  background-color: #00a3ff !important;
 
 }
 
@@ -87,10 +87,10 @@ body {
   
 }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
+.carousel-caption h1 p {
   z-index: 10;
   color: #fff!important;
-  text-shadow: 16px 8px 30px #000;
+  text-shadow: 30px 16px 40px #000;
   
 }
 
