@@ -23,9 +23,7 @@ body {
 }
 
 /* Flip around the padding for proper display in narrow viewports */
-.navbar-nav ul li {
-  color:#fff;
-}
+
 
 .navbar-wrapper > .container {
   padding-right: 0;
@@ -37,6 +35,35 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: #ff5c00;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #00a3ff;
+}
+
+
+.navbar-inverse .navbar-nav>li:hover {
+  color: #00a3ff;
+}
+
+.navbar-inverse .navbar-nav>.open>a {
+  background-color: #00a3ff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #00a3ff;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: #00a3ff;
 }
 
 
