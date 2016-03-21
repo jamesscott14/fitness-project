@@ -149,6 +149,14 @@ body {
 }
 
 
+.row .social-media ul li {
+  margin:0;
+  display: inline;
+  margin-left: 50%;
+  margin-right: -50%;
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
