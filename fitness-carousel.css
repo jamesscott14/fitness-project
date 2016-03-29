@@ -105,6 +105,10 @@ body {
 
 }
 
+.carousel-caption .btn {
+  margin-top: 50px;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 800px;
