@@ -109,6 +109,11 @@ body {
   margin-top: 50px;
 }
 
+.carousel-caption .btn-primary:hover {
+  background-color: #5BC236;
+  border-color: #5BC236;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 800px;
@@ -149,18 +154,46 @@ body {
 .marketing h2 {
   font-weight: normal;
 }
+
+.marketing .row .col-lg-4 .img-square {
+  /*border-style: 1px solid black;*/
+  box-shadow: 0 4px 4px 4px grey;
+}
+
+
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
 
-.marketing .btn-row {
+.col-lg-4 .btn-row .btn-default {
   margin-top: 40px;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
+  /*display: inline;*/
+  /*vertical-align: middle;*/
+  /*margin-top: 20px;*/
 }
 
+.btn-default {
+  color: #fff;
+  background-color: #ff0800;
+  -moz-box-shadow: 1px 1px 3px 2px #ff7c32;
+  -webkit-box-shadow: 1px 1px 3px 2px #ff7c32;
+  box-shadow: 1px 1px 3px 2px #ff7c32;
 
+}
 
+.btn-default:hover{
+  color:#fff;
+  background-color: #5BC236;
+  -moz-box-shadow: 1px 1px 3px 2px #eee;
+  -webkit-box-shadow: 1px 1px 3px 2px #eee;
+}
+
+.btn-default .active:visited {
+  color: #fff;
+  background-color: #83d077;
+}
 
 
 
@@ -176,8 +209,15 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
 }
+
+
+img {
+  box-shadow: 0 4px 4px 4px grey;
+
+}
+
 
 footer {
   background-color: #ffb600;
