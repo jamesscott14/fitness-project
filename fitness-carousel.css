@@ -16,7 +16,7 @@ body {
 .navbar-brand img{
   position: relative;
   bottom:16px;
-  box-shadow: 0px 4px 4px 3px #333;
+  box-shadow: 0px 3px 3px 2px #333;
 }
 
 .navbar-wrapper {
@@ -40,6 +40,14 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 
+}
+
+.row .social ul li {
+  float:right;
+  display: inline;
+  margin-right: 10px;
+  padding-right: 4px;
+  padding-left: 4px;
 }
 
 
@@ -93,10 +101,9 @@ body {
 .carousel-slide {
   height: 500px;
   margin-bottom: 60px;
-
-
-
 }
+
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   margin-bottom: 200px;
@@ -231,13 +238,6 @@ footer {
   text-align: center;
 }
 
-
-.row .social-media ul li {
-  margin:0;
-  display: inline;
-  margin-left: 50%;
-  margin-right: -50%;
-}
 
 
 /* RESPONSIVE CSS
